@@ -1,0 +1,183 @@
+// Place all the styles related to the homes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+//
+.video-content{
+    width: 100%;
+    background-size: cover;
+    -ms-filter: blur(6px);
+    filter: blur(16px);
+    height: auto;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 2.8;
+    position: fixed;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 1;
+}
+h1{
+
+    padding-top: 200px;
+    padding-right: 30px;
+    z-index: 124;
+}
+.video-content:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+body {
+    font-family: "Century Gothic", 'Lato', sans-serif;
+}
+
+.maoumiko{
+    z-index: 2;
+    margin-left: 800px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.et-hero-tabs,
+.et-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #2E2F30;
+    text-align: center;
+    padding: 0 2em;
+    z-index: 2;
+    h1 {
+        font-size: 2rem;
+        margin: 0;
+        letter-spacing: 1rem;
+    }
+    h3 {
+        font-size: 1rem;
+        letter-spacing: 0.3rem;
+        opacity: 0.6;
+    }
+}
+
+.et-hero-tabs-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: #2E2F30;
+    z-index: 10;
+    &--top {
+        position: fixed;
+        top: 0;
+    }
+}
+
+.et-hero-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: whitesmoke;
+    letter-spacing: 0.1rem;
+    transition: all 0.5s ease;
+    font-size: 0.8rem;
+    &:hover {
+        color: azure;
+        background: lightpink;
+        transition: all 0.5s ease;
+    }
+}
+
+
+
+.et-hero-tab-slider {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    background: #66B1F1;
+    transition: left 0.3s ease;
+}
+
+.l-wrapper_06 {
+    margin: 1rem auto;
+    width: 100%;
+}
+
+.l-wrapper_06:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 34px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+    transition: all .5s;
+}
+.card_06 {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+.card-img_06 {
+    border-radius: 5px 5px 0 0;
+    max-width: 100%;
+    height: auto;
+}
+.card-content_06 {
+    padding: 8px 20px 20px;
+}
+.card-title_06 {
+    font-size: 1.6em;
+    color: #333;
+    font-weight: 700;
+}
+.card-text_06 {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 0.2em;
+}
+.card-link_06 {
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding: 20px;
+}
+//.card-link_06 a {
+//    text-decoration: none;
+//    color: #4f96f6;
+//    margin: 0 10px;
+//}
+.card-link_06 a:hover {
+    color: #6bb6ff;
+}
+
+.card-content_06 p {
+    margin-bottom:0;
+}
+
+.skewed {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2c3e50;
+    z-index: 0;
+    transform: skewY(10deg);
+    transform-origin: top right;
+}

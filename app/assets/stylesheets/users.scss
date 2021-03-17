@@ -1,0 +1,162 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC);
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
+
+
+.letter {
+    background: #fffcf4;
+    box-shadow: inset 0 0 50px rgba(230, 220, 190, 1);
+    margin: 26px auto 0;
+    max-width: 500px;
+    min-width: 500px;
+    min-height: 600px;
+    padding: 24px;
+    position: relative;
+    width: 80%;
+}
+
+.letter:before, .letter:after {
+    content: "";
+    height: 98%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.letter:before {
+    background: #f4e8d2;
+    box-shadow: inset 0 0 30px rgba(230, 220, 190, 1);
+    left: -5px;
+    top: 4px;
+    transform: rotate(-2.5deg);
+}
+
+.letter:after {
+    background: #eee0ca;
+    box-shadow: inset 0 0 30px rgba(230, 220, 190, 1);
+    right: -3px;
+    top: 1px;
+    transform: rotate(1.4deg);
+}
+
+
+.sa {
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+#h1 {
+    font-size: 38px;
+    //position: absolute;
+    top: 20px;
+}
+
+#p3 {
+    font-size: 23px;
+    position: absolute;
+    top: 120px;
+}
+
+#p4 {
+    font-size: 20px;
+    position: absolute;
+    top: 170px;
+}
+
+#p5 {
+    font-size: 21px;
+    position: absolute;
+    top: 210px;
+}
+
+#p6 {
+    font-size: 23px;
+    position: absolute;
+    top: 250px;
+}
+
+#p7 {
+    font-size: 23px;
+    position: absolute;
+    top: 340px;
+}
+
+#p8 {
+    font-size: 23px;
+    position: absolute;
+    top: 390px;
+}
+
+#p9 {
+    font-size: 23px;
+    position: absolute;
+    top: 520px;
+    left: 130px;
+}
+.form{
+    position: absolute;
+    top: 480px;
+    left: 150px;
+}
+
+input[type="text"]{
+    font-family: "HanziPen SC", cursive;
+    background-color: #fffcf4;
+    box-shadow: none;
+    outline: 0;
+    border: none;
+    height: 40px;
+    width:  190px;
+    font-size: 30px;
+}
+input[type="text"]:focus{
+    border: none;
+    background-color:#fffcf4 ;
+
+}
+
+.books{
+    position: absolute;
+    margin: 30px 50px;
+    width:90%;
+    height:90%;
+    z-index: -1;
+}
+
+h1{
+    font-family: "HanziPen SC", cursive;
+    font-style: oblique;
+    position: absolute;
+    z-index: 2;
+    color: black;
+    left: 150px;
+    top: 25px;
+}
+
+table{
+    z-index: 3;
+    color: white;
+}
+
+.btn{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    background-color:#fffcf4 ;
+}
+
+thead{
+    position: relative;
+}
+
+tr{
+    margin: 5px 5px;
+}
+
+.page{
+
+}

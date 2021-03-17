@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="letter">
+    <h3 id="h1" class="sa">魔王四天王直属部下 契約書</h3>
+    <p id="p3" class="sa">そなたは魔王の命により、</p>
+    <p id="p4" class="sa">本日から魔王軍四天王直属の下っ端に任命するにぇ</p>
+    <p id="p5" class="sa">魔王みこがホロ鯖を支配できるように</p>
+    <p id="p6" class="sa">応援して欲しいにぇ！(`・ω・´)</p>
+    <p id="p7" class="sa"></p>
+    <p id="p8" class="sa">契約者</p>
+    <p id="p9" class="sa">↑ここに名前書いてにぇ</p>
+    <div class="form">
+      <%= form_with(model: @user, local: true) do |form| %>
+        <%= form.text_field :name, class:"tf" %>
+        <%= form.submit"契約する",class: "btn"%>
+      <% end %>
+    </div>
+  </div>
+</div>
